@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "jsx": "react-jsx", // 或 "react-native"
+    "lib": ["ES2015", "DOM", "ESNext"] // RNW 可能需要 DOM
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "yolostudio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:mobile": "pnpm --filter mobile start",
+    "dev": "concurrently \"pnpm run dev:web\" \"pnpm run dev:mobile\"",
+    "build:web": "pnpm --filter web build",
+    "build:mobile": "pnpm --filter mobile build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
