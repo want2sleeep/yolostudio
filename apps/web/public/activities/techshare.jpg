@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#fff5f5"/>
+  <rect x="50" y="50" width="700" height="300" rx="10" ry="10" fill="white" stroke="#ddd" stroke-width="2"/>
+  <text x="400" y="100" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#ff4d4d">技术分享会</text>
+  <text x="400" y="140" font-family="Arial" font-size="18" text-anchor="middle" fill="#666">2024-04-05</text>
+  <rect x="100" y="170" width="600" height="40" rx="5" ry="5" fill="#ffe6e6"/>
+  <text x="400" y="198" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">前端框架最新特性分享与实战演示</text>
+  <rect x="100" y="220" width="600" height="40" rx="5" ry="5" fill="#ffe6e6"/>
+  <text x="400" y="248" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">主讲人：周同学（前端开发）</text>
+  <rect x="100" y="270" width="600" height="60" rx="5" ry="5" fill="#ffe6e6"/>
+  <text x="400" y="295" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">了解最新前端技术趋势，掌握实战技巧</text>
+  <text x="400" y="320" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">欢迎所有对前端开发感兴趣的同学参加</text>
+</svg>

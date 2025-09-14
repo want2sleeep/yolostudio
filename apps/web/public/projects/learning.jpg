@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#f0fff5"/>
+  <rect x="50" y="50" width="700" height="300" rx="10" ry="10" fill="white" stroke="#ddd" stroke-width="2"/>
+  <text x="400" y="100" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#00cc66">学习路径规划</text>
+  <path d="M150,150 L150,300 L700,300" stroke="#00cc66" stroke-width="3" fill="none"/>
+  <circle cx="150" cy="150" r="20" fill="#00cc66"/>
+  <text x="180" y="155" font-family="Arial" font-size="16" fill="#333">起点</text>
+  <circle cx="150" cy="225" r="20" fill="#00cc66"/>
+  <text x="180" y="230" font-family="Arial" font-size="16" fill="#333">中级</text>
+  <circle cx="150" cy="300" r="20" fill="#00cc66"/>
+  <text x="180" y="305" font-family="Arial" font-size="16" fill="#333">高级</text>
+  <rect x="200" y="180" width="500" height="80" rx="5" ry="5" fill="#e6fff2" stroke="#00cc66" stroke-width="1"/>
+  <text x="220" y="210" font-family="Arial" font-size="16" font-weight="bold" fill="#333">个性化学习推荐</text>
+  <text x="220" y="235" font-family="Arial" font-size="14" fill="#666">根据你的兴趣和进度定制最佳学习路径</text>
+</svg>

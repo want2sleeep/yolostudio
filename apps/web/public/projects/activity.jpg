@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#fff5f5"/>
+  <rect x="50" y="50" width="700" height="300" rx="10" ry="10" fill="white" stroke="#ddd" stroke-width="2"/>
+  <text x="400" y="100" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#ff4d4d">校园活动平台</text>
+  <circle cx="150" cy="180" r="40" fill="#ffe6e6" stroke="#ff4d4d" stroke-width="2"/>
+  <text x="150" y="185" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#ff4d4d">03/15</text>
+  <rect x="220" y="160" width="500" height="60" rx="5" ry="5" fill="#fff" stroke="#ddd" stroke-width="1"/>
+  <text x="250" y="185" font-family="Arial" font-size="16" font-weight="bold" fill="#333">春季招新活动</text>
+  <text x="250" y="210" font-family="Arial" font-size="14" fill="#666">14:00-17:00 学生活动中心</text>
+  <rect x="100" y="240" width="600" height="80" rx="5" ry="5" fill="#fff" stroke="#ddd" stroke-width="1"/>
+  <text x="120" y="270" font-family="Arial" font-size="16" font-weight="bold" fill="#333">近期活动日历</text>
+  <rect x="120" y="290" width="550" height="20" rx="3" ry="3" fill="#f0f0f0"/>
+</svg>
