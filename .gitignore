@@ -1,1 +1,85 @@
-/node_modules
+# 参考文档：https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# ==========================
+# 通用依赖忽略
+# ==========================
+# 所有层级的node_modules
+node_modules/
+# pnpm/yarn相关缓存
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+.pnpm-debug.log*
+
+# ==========================
+# Expo 项目相关（子文件夹）
+# ==========================
+# Expo缓存和构建产物
+**/.expo/
+**/dist/
+**/web-build/
+**/expo-env.d.ts
+
+# 原生开发文件
+**/.kotlin/
+**/*.orig.*
+**/*.jks
+**/*.p8
+**/*.p12
+**/*.key
+**/*.mobileprovision
+# 原生项目目录（ios/android）
+**/ios/
+**/android/
+
+# Metro打包工具
+**/.metro-health-check*
+
+# ==========================
+# Next.js 项目相关（子文件夹）
+# ==========================
+# Next.js构建输出
+**/.next/
+**/out/
+**/build/
+# Vercel部署缓存
+**/.vercel
+# Next.js类型文件
+**/next-env.d.ts
+
+# ==========================
+# 通用构建/测试忽略
+# ==========================
+# 测试覆盖率报告
+**/coverage/
+# TypeScript构建信息
+*.tsbuildinfo
+
+# ==========================
+# 调试与日志文件
+# ==========================
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# ==========================
+# 系统与环境文件
+# ==========================
+# macOS
+.DS_Store
+*.pem
+# Windows
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+
+# ==========================
+# 环境变量文件（敏感信息）
+# ==========================
+.env*.local
+# 可选：如果需要提交部分env文件，可删除上面一行并单独指定
+# .env.example  # 示例文件通常需要提交，这里未忽略
