@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "next/babel",
+    "@babel/preset-typescript"
+  ],
+  "plugins": [
+    "babel-plugin-react-native-web",
+    [
+      "@tamagui/babel-plugin", 
+      {
+        "components": ["@tamagui/core", "@tamagui/react-native"],
+        "config": "../../packages/ui/tamagui.config.ts"
+      }
+    ]
+  ]
+}

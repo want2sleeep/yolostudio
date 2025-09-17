@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
     "react-native-web",
     "@yolostudio/ui",
     "@yolostudio/utils",
+    "@tamagui/core",
+    "@tamagui/react-native",
   ],
   webpack: (config) => {
     config.resolve.alias = {

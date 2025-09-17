@@ -83,3 +83,5 @@ $RECYCLE.BIN/
 .env*.local
 # 可选：如果需要提交部分env文件，可删除上面一行并单独指定
 # .env.example  # 示例文件通常需要提交，这里未忽略
+
+**/.tamagui

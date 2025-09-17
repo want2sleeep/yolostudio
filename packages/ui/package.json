@@ -10,12 +10,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@tamagui/config": "^1.132.24",
+    "@tamagui/lucide-icons": "^1.132.24",
     "react": "19.1.0",
-    "react-native": "0.81.4"
+    "react-native": "0.81.4",
+    "react-native-svg": "^15.13.0",
+    "tamagui": "^1.132.24"
   },
   "devDependencies": {
+    "@tamagui/babel-plugin": "^1.132.24",
     "@types/react": "^19.1.13",
     "@types/react-native": "^0.73.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "typescript": "^5.9.2"
   }
 }

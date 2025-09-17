@@ -1,10 +1,11 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
+    "types": ["tamagui"],
     "outDir": "./dist",
     "rootDir": "./src",
-    "jsx": "react-jsx", // 或 "react-native"
-    "lib": ["ES2015", "DOM", "ESNext"] // RNW 可能需要 DOM
+    "jsx": "react-jsx",
+    "lib": ["ES2015", "DOM", "ESNext"]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
