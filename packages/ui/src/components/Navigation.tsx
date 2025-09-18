@@ -1,6 +1,7 @@
 'use client'
 
 import { styled, View, Text, XStack, Popover, Button, YStack } from "tamagui";
+import Tabs from "./Tabs";
 
 const Navigation = () => {
   return (
@@ -10,9 +11,7 @@ const Navigation = () => {
       </Left>
 
       <Right>
-        <Text>关于</Text>
-        <Text>服务</Text>
-        <Text>联系我们</Text>
+        <Tabs names={['首页', '关于', '服务', '联系我们']} onTabChange={() => {}} />
         
         <UserContainer hoverable>
           <Popover.Trigger asChild>
