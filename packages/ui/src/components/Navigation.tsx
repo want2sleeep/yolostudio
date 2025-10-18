@@ -25,11 +25,14 @@ const Navigation = () => {
           </Popover.Trigger>
 
           <UserContent>
-            <Popover.Arrow borderWidth={1} borderColor="red" />
-            <Popover.Close />
+            <Popover.Arrow borderWidth={1} borderColor="$borderColor" />
+
             <UserContentList gap="$2">
               <Button>用户中心</Button>
               <Button>退出登录</Button>
+              <Popover.Close asChild>
+                <Button>关闭</Button>
+              </Popover.Close>
             </UserContentList>
           </UserContent>
         </UserContainer>
@@ -59,11 +62,16 @@ const Right = styled(XStack, {
 const Logo = styled(Text, {
 })
 
-const UserContainer = styled(Popover, {})
+const UserContainer = styled(Popover, {
+  size: "$5",
+  allowFlip: true,
+  stayInFrame: true,
+  offset: 15,
+})
 
 const UserContent = styled(Popover.Content, {
   borderWidth: 1,
-  borderColor: 'red',
+  borderColor: '$borderColor',
   padding: 10,
   enterStyle: { y: -10, opacity: 0, },
   exitStyle: { y: -10, opacity: 0 },
